@@ -1,0 +1,17 @@
+{
+  "name": "aivec/core-css",
+  "description": "Aivec core CSS styles",
+  "license": "GPL-2.0-only",
+  "authors": [
+    {
+      "name": "Evan Shaw",
+      "email": "evandanielshaw@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Aivec\\Core\\CSS\\": "src"
+    }
+  },
+  "require": {}
+}

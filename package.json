@@ -1,0 +1,9 @@
+{
+  "name": "@aivec/core-css",
+  "scripts": {
+    "build": "lessc css/core.less dist/core.css"
+  },
+  "devDependencies": {
+    "less": "^4.1.1"
+  }
+}
