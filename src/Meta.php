@@ -7,5 +7,5 @@ namespace Aivec\Core\CSS;
  */
 class Meta
 {
-    const CORE_VERSION = 'v1';
+    const CORE_VERSION = 'v2';
 }
