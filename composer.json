@@ -12,6 +12,5 @@
     "psr-4": {
       "Aivec\\Core\\CSS\\": "src"
     }
-  },
-  "require": {}
+  }
 }

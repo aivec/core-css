@@ -1,4 +1,4 @@
-@version: v1;
+@version: v2;
 @namespace: avc;
 @avc: ~"@{namespace}-@{version}";
 
@@ -26,11 +26,23 @@
   align-items: center !important;
 }
 
+.@{avc}.flex.ai-f-start {
+  align-items: flex-start !important;
+}
+
+.@{avc}.flex.ai-f-end {
+  align-items: flex-end !important;
+}
+
 .@{avc}.flex.jc-center {
   justify-content: center !important;
 }
 
-.@{avc}.flex.jc-flex-end {
+.@{avc}.flex.jc-f-start {
+  justify-content: flex-start !important;
+}
+
+.@{avc}.flex.jc-f-end {
   justify-content: flex-end !important;
 }
 
