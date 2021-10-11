@@ -1,9 +1,9 @@
 {
   "name": "@aivec/core-css",
   "scripts": {
-    "build": "lessc less/core.less src/css/core.css"
+    "build": "sass --style=compressed --no-source-map scss/core.scss src/css/core.css"
   },
   "devDependencies": {
-    "less": "^4.1.1"
+    "sass": "^1.42.1"
   }
 }
