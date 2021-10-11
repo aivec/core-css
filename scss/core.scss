@@ -82,6 +82,10 @@ $avc: #{$namespace}-#{$version};
   margin-left: auto !important;
 }
 
+.#{$avc}.t-bold {
+  font-weight: 700 !important;
+}
+
 $psides: (
   "p": "padding",
   "pt": "padding-top",
