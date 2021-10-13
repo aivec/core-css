@@ -224,7 +224,7 @@ $sizes: ($remsizes, $pxsizes);
     }
     .#{$avc}.py-#{$sizeclass} {
       padding-top: #{$sizeval} !important;
-      padding-left: #{$sizeval} !important;
+      padding-bottom: #{$sizeval} !important;
     }
     .#{$avc}.mx-#{$sizeclass} {
       margin-left: #{$sizeval} !important;
